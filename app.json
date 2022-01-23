@@ -1,0 +1,9 @@
+{
+ "name": "Channel Subscribe Bot",
+ "description": "© R",
+ "logo": "",
+ "keywords": ["telegram", "fsub", "forcesub", "channel", "pironoob"],
+ "repository": "https://github.com/anonymousdoge69/uwu",
+ "env": {"API_KEY": {"description": "APP ID, get from my.telegram.org", "value": "", "required": true}, "API_HASH": {"description": "API HASH, get from my.telegram.org", "value": "", "required": true}, "TOKEN": {"description": "Bot Token, get from @Botfather", "value": "", "required": true}, {"CHANNEL_ID": {"description": "Telegram channel id as Integer", "value": "", "required": true}, "OWNER_ID": {"description": "Your user ID", "value": "", "required": true}},
+ "buildpacks": [{"url": "heroku/python"}]
+}
